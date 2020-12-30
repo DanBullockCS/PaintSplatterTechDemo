@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Paint Splatter Tech Demo</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Desktop.json", { onProgress: UnityProgress });
+  </script>
+  <script>
+    function ToggleDiv() {
+      var div = document.getElementById("controls");
+      if (div.style.display === "none") {
+        div.style.display = "block";
+      } else {
+        div.style.display = "none";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="webgl-content">
+    <div id="unityContainer" style="width: 960px; height: 600px"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+      <div class="title">Paint Splatter Tech Demo</div>
+    </div>
+    <br>
+    <button style="background-color: aqua;
+      border: 2px solid black;
+      padding: 0.5rem;"><a href="/" style="text-decoration: none; color: black;">Home</a></button>
+    <button style="background-color: aqua;
+      border: 2px solid black;
+      padding: 0.5rem;" onclick="ToggleDiv()">Toggle Controls</button>
+  </div>
+
+  <div id="controls" style="padding-right: 0.5rem;
+                opacity: 0.75;
+                background-color: aliceblue;
+                position: relative;
+                float: right;
+                font-size: 0.75rem;
+                ">
+    <p>
+    <ul><b>General Controls</b>
+      <li>Click on the window to start game</li>
+      <li>Esc - Get Out of Game Window</li>
+      <li>WASD - Movement</li>
+      <li>Left Click / Space - Shoot Paint</li>
+      <li>Left Shift - Sprint</li>
+      <li>Left Alt - LightSpeed Sprint</li>
+    </ul>
+    <br>
+    <ul><b>Hints</b>
+      <li>There are 8 enemies to find on the map, try to find and shoot them all!</li>
+      <li>Try lightspeed jumping off of the terrain, it's quite fun to fly around with it</li>
+    </ul>
+    </p>
+  </div>
+</body>
+
+</html>

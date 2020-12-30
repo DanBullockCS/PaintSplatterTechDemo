@@ -1,0 +1,33 @@
+Font:
+https://www.dafont.com/counter-strike.font
+
+Water Texture:
+https://www.sketchuptextureclub.com/textures/nature-elements/water/sea-water/sea-water-texture-seamless-13245
+
+Leaf Texture:
+http://www.pngmart.com/image/8511
+
+Mud Texture:
+https://w4ltr0n.files.wordpress.com/2013/08/crackedmud512x512.png
+
+Snow Texture:
+http://spiralgraphics.biz/packs/snow_ice/index.htm?23
+
+Grass Texture:
+https://unity4ditalia.altervista.org/wp-content/uploads/2013/05/texture-grass-021.jpg
+
+Stone Texture:
+http://textures101.com/view/379/Rock/Rock
+
+Abandoned Buildings:
+https://assetstore.unity.com/packages/3d/environments/abandoned-buildings-62875\
+
+// Standard Assets imported for Conifer trees
+
+Paint Splatter (I recoloured them of course to look more like paint):
+https://www.onlygfx.com/18-paint-splatters-png-transparent/
+
+Paint Splatter sound effects:
+https://www.youtube.com/watch?v=KUOfNtoJyLw
+http://soundbible.com/642-Splat.html
+http://soundbible.com/1728-Spit-Splat-2.html
